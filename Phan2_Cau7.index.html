@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .gallery {
+             display: grid;
+             grid-template-columns: repeat(3, 2fr);
+             gap: 10px;
+            max-width: 600px;
+            margin: 20px auto;
+         }
+        .gallery img {
+            width: 100%;
+         border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img src="https://picsum.photos/seed/picsum/200/300" alt="">
+        <img src="https://picsum.photos/200/300?grayscale" alt="">  
+        <img src="https://picsum.photos/200/300/?blur" alt="">  
+        <img src="https://picsum.photos/id/870/200/300?grayscale&blur=2" alt="">
+        <img src="https://picsum.photos/id/870/200/300?grayscale&blur=2" alt="">
+        <img src="https://picsum.photos/v2/list" alt="">
+    </div>
+</body>
+</html>
